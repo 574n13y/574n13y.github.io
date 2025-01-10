@@ -1,64 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vivesh Tyagi | Tech Enthusiast</title>
 
-	<title>Vivesh Tyagi | Tech</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/png">
 
-	<link rel="icon" href="favicon.ico" type="image/png" />
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/themes/indigo-white.css">
-	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/grey-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Background Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('file:///C:/Users/vives/Desktop/wat.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Transparent Content Container */
+        .container {
+            background-color: rgba(0, 0, 0, 0.6); /* Black with 60% transparency */
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 2rem;
+        }
+
+        .intro {
+            font-size: 3rem; /* Increased font size */
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .tagline {
+            font-size: 1.5rem; /* Increased font size */
+            color: #ccc;
+        }
+
+        .icons-social {
+            display: flex;
+            gap: 2rem; /* Larger spacing between icons */
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .icons-social a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 3rem; /* Increased icon size */
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .icons-social a:hover {
+            color: #00bcd4;
+            transform: scale(1.2); /* Larger scale on hover */
+        }
+
+        .portfolio {
+            margin-top: 2rem;
+        }
+
+        .portfolio a {
+            color: #00bcd4;
+            font-size: 1.5rem; /* Increased font size for portfolio link */
+            text-decoration: none;
+            border: 2px solid #00bcd4; /* Thicker border */
+            padding: 0.8rem 1.5rem; /* Larger padding */
+            border-radius: 8px; /* Rounded corners */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .portfolio a:hover {
+            background-color: #00bcd4;
+            color: #fff;
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem; /* Larger icon size */
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            background: #00bcd4;
+        }
+    </style>
 </head>
-	
 <body>
-	<main>
-	<div class="intro">Hello, I'm Vivesh!</div>
-	<div class="tagline">An Aspiring Expert in Cloud Technologies</div>
-	<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-	<div class="icons-social">
-		<a target="_blank" href="https://github.com/574n13y">
-                <i class="fab fa-github" aria-hidden="true" title="Github"></i>
-                <span class="sr-only">Github</span>
-                </a>
-		<a target="_blank" href="https://gitlab.com/574n13y">
-                <i class="fab fa-gitlab" aria-hidden="true" title="GitLab"></i>
-                <span class="sr-only">GitLab</span>
-		</a>
-                <a target="_blank" href="https://www.linkedin.com/in/vivesh-tyagi-9085a9a9">
-                <i class="fab fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
-                <span class="sr-only">LinkedIn</span>
-                </a>
-		<a target="_blank" href="https://dev.to/574n13y">
-                <i class="fab fa-dev" aria-hidden="true" title="Dev.to"></i>
-                <span class="sr-only">Dev.to</span>
-                </a>
-                <a target="_blank" href="https://gist.github.com/574n13y">
-                <i class="fas fa-user" aria-hidden="true" title="Gist Github"></i>
-                <span class="sr-only">Gist Github</span>
-                </a>
-	</div><br>
-<div class="portfolio">
-    <a href=" https://574n13y.github.io/portfolio/index.html" target="_blank">
-        <i class="fas fa-user" aria-hidden="true" title="Click here to view my Portfolio"></i>
-        Click here to view my Portfolio
-    </a>
-</div>
+    <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+        <i class="fas fa-adjust"></i>
+    </button>
 
-</main>
- 
+    <div class="container">
+        <header>
+            <div class="intro">Hello, I'm Vivesh!</div>
+            <div class="tagline">An Aspiring Expert in Cloud Technologies</div>
+        </header>
+
+        <section>
+            <div class="icons-social">
+                <a href="https://vivesh.vercel.app/" target="_blank" aria-label="Web-Site">
+                    <i class="fas fa-user" title="Web-Site"></i>
+                </a>
+                <a href="https://github.com/574n13y" target="_blank" aria-label="Github">
+                    <i class="fab fa-github" title="GitHub"></i>
+                </a>
+                <a href="https://gitlab.com/574n13y" target="_blank" aria-label="GitLab">
+                    <i class="fab fa-gitlab" title="GitLab"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/vivesh-tyagi-9085a9a9" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin" title="LinkedIn"></i>
+                </a>
+                <a href="https://dev.to/574n13y" target="_blank" aria-label="Dev.to">
+                    <i class="fab fa-dev" title="Dev.to"></i>
+                </a>
+                <a href="https://gist.github.com/574n13y" target="_blank" aria-label="Gist GitHub">
+                    <i class="fas fa-code" title="Gist GitHub"></i>
+                </a>
+            </div>
+
+            <div class="portfolio">
+                <a href="https://574n13y.github.io/portfolio/index.html" target="_blank">
+                    <i class="fas fa-external-link-alt" title="Portfolio"></i> View My Portfolio
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Theme Toggle Functionality
+        const themeToggle = document.getElementById('themeToggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+        });
+    </script>
 </body>
 </html>
